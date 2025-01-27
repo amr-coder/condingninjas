@@ -1,0 +1,41 @@
+.botn-login{
+  background-color: orange;
+}
+
+
+
+/* Change color while moving to corners */
+.change-color-corner {
+  animation-name: change-color-corner;
+  animation-duration: 6s;
+}
+
+@keyframes change-color-corner {
+  from {
+    background-color: #ddb787;
+  }
+
+  20% {
+    background-color: #4fa0f8;
+    transform: translate(170px, -170px);
+  }
+
+  40% {
+    background-color: #ed7e07;
+    transform: translate(170px, 170px);
+  }
+
+  60% {
+    background-color: #121212;
+    transform: translate(-170px, 170px);
+  }
+
+  80% {
+    background-color: #08b59b;
+    transform: translate(-170px, -170px);
+  }
+
+  to {
+    background-color: #ffffff;
+  }
+}

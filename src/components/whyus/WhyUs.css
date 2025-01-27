@@ -1,0 +1,7 @@
+.container-whyUs{
+    background: linear-gradient(black,rgb(17, 17, 17),rgb(23, 23, 23),rgb(2, 2, 42));
+}
+.video-containers{
+    border: 7px solid rgba(37, 37, 37, 0.714);
+    border-radius: 8px;
+}

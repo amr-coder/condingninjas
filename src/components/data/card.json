@@ -1,0 +1,42 @@
+ {
+  
+  "graduates":[
+    {
+      "id": "1",
+      "name": "Full Stack Web Development",
+      "desc": "Certified by Coding Ninjas",
+      "img": "images/layer.svg"
+    },
+    {
+      "id": "2",
+      "name": "Data Analytics",
+      "desc": "Certified by Coding Ninjas",
+      "img": "images/data-analytics.jpg"
+    }
+    
+   
+  ],
+  "college":[
+        
+    {
+      "id": "4",
+      "name": "Training and Internship Certification in Advanced DSA",
+      "desc": "Certified by Coding Ninjas",
+      "img": "images/c3.jpg"
+    }, {
+      "id": "5",
+      "name": "Training and Internship Certification in Data Analytics",
+      "desc": "Certified by Coding Ninjas",
+      "img": "images/c3.jpg"
+    }, {
+      "id": "6",
+      "name": "PG Certification in Data Analytics",
+      "desc": "Certified by Coding Ninjas",
+      "img": "images/c3.jpg"
+    }
+        ]
+  }
+
+  
+
+  

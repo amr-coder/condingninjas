@@ -1,0 +1,8 @@
+.wrapper{
+    margin: 4rem 10rem 0;
+}
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 0 1rem;
+    }
+}

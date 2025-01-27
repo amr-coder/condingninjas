@@ -1,0 +1,9 @@
+.wrapper-spotlight{
+    margin: 0 7rem 0;
+}
+@media (max-width: 768px) {
+    .wrapper-spotlight{
+        margin: 0 1rem;
+    }
+
+}

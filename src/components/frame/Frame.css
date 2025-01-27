@@ -1,0 +1,72 @@
+/* Original settings for .wrapper maintained */
+.wrapper {
+    position: relative;
+    margin: 0 10rem 0;
+}
+
+/* No change to animation */
+.left-scroll-animation {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 220px;
+    border-left: 2px dashed rgb(69, 69, 69);
+}
+
+.sideTracker {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    height: 60px;
+    width: 2px;
+    background-color: black;
+    animation: animate 3s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(160px);
+        height: 100px;
+    }
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+/* Updated frame-icon-text for consistent row layout and spacing */
+.frame-icon-text {
+    margin-top: -4.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem; /* Slight left margin */
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 0 1rem;
+    }
+
+    .frame-icon-text {
+        gap: 0.3rem; /* Reduce gap for small screens */
+        margin-left: 0.25rem; /* Slightly reduce left margin */
+    }
+
+    .frame-icon-text p:first-child {
+        font-size: 0.75rem; /* Smaller text for "Job Bootcamp" */
+    }
+
+    .frame-icon-text p:last-child {
+        font-size: 0.65rem; /* Smaller badge text */
+        padding: 0.2rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
